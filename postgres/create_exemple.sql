@@ -31,6 +31,7 @@ CREATE TABLE users_roles_exemple.users_roles
 	    REFERENCES users_roles_exemple."USERS" (userid)
 );
 
+
 DROP TABLE IF EXISTS users_roles_exemple."DONNEBRUTE" CASCADE;
 CREATE TABLE users_roles_exemple."DONNEBRUTE"
 (
