@@ -1,5 +1,11 @@
-# exemple_sql
-Remplir et initialiser une BD depuis un ensemble de documents non structuré (un csv)
+# exemple sql
+
+## Complément SQL 
+Remplir et initialiser une BD depuis un ensemble de documents non structurés (un csv)
+
+* Créer des tables
+* remplir des tables depuis un csv
+* normaliser en créeant des entités (clé -> informations) et des relations
 
 # modèle
 
@@ -10,8 +16,9 @@ Remplir et initialiser une BD depuis un ensemble de documents non structuré (un
 
 # Les données brutes format csv
 
+[vers le ficbiers csv](exemple.csv)
 # Les scripts postgress
 
-![vers les scripts](postgres)
+[vers les scripts](postgres)
 
 # TODO Les scripts Mysql 
