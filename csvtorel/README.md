@@ -17,7 +17,7 @@ Your browser does not support the video tag.
 
 <video width="320" height="240" controls>
   <source src="videos/le_modele.mp4" type="video/mp4">
-Your browser does not support the video tag.
+Your browser does not support the video tag. 
 </video>
 
 ## 4. Créer les tables qui ne dépendent d'aucune autre
