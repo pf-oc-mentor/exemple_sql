@@ -8,14 +8,14 @@
 
 ## 2. Importer le fichier Brut dans Mysql
 
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="videos/import_csv_mysql.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 ## 3. Définir les modèles  conceptuel (UML) et physique (ERD)
 
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="videos/le_modele.mp4" type="video/mp4">
 Your browser does not support the video tag. 
 </video>
@@ -23,7 +23,7 @@ Your browser does not support the video tag.
 ## 4. Créer les tables qui ne dépendent d'aucune autre
 ![RAW to tables](imgs/creation_des_table.jpg)
 ### La table personnes
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="videos/create_personnes.mp4" type="video/mp4">
 Your browser does not support the video tag. 
 </video>
@@ -36,7 +36,7 @@ create table  personnes
 ```
 ## 5. Créer les tables avec dépendance pour renseigner la clé étrangère
 
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="videos/create_salaires.mp4" type="video/mp4">
 Your browser does not support the video tag. 
 </video>
