@@ -1,0 +1,1 @@
+select  distinct `Nom`, `Prenom` from RAW;

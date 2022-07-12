@@ -21,5 +21,35 @@ Your browser does not support the video tag.
 </video>
 
 ## 4. Créer les tables qui ne dépendent d'aucune autre
+![RAW to tables](imgs/creation_des_table.jpg)
+### La table personnes
+<video width="320" height="240" controls>
+  <source src="videos/create_personnes.mp4" type="video/mp4">
+Your browser does not support the video tag. 
+</video>
 
-## 5. Créer les tables avec dépendance pour resigner la clé étrangères
+La requête en SQL (MySQL 8)
+```sql
+create table  personnes
+     (id_personnes INT not null AUTO_INCREMENT, PRIMARY KEY (id_personnes))
+     (select distinct `Nom`, `Prenom` from RAW);
+```
+## 5. Créer les tables avec dépendance pour renseigner la clé étrangère
+
+<video width="320" height="240" controls>
+  <source src="videos/create_salaires.mp4" type="video/mp4">
+Your browser does not support the video tag. 
+</video>
+
+la requête en SQL (MySQL 8)
+```sql
+create table  salaires
+     (id_salaire INT not null AUTO_INCREMENT, PRIMARY KEY (id_salaire))
+     (SELECT 
+        R.Annee, R.Departement, R.Salaire, P.id_personnes 
+      FROM
+	    RAW R INNER JOIN personnes P 
+        ON 
+          R.Nom = P.Nom and R.Prenom = P.Prenom
+	  );
+```
